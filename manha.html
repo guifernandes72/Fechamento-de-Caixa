@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/manha.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechamento de Caixa</title>
+
+</head>
+<body>
+
+    <header>
+        <div class="containerHeader">
+            <ul class="nav-links">
+                <li><a href="fechamentoCaixa.html">Fechamento de Caixa</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form id="caixaForm">
+        <div class="titulo">
+            Fechamento de Caixa - Período da Manhã
+        </div>
+
+        <p>
+            Maquininha 1:
+            <input type="text" id="maq1" placeholder="Insira o primeiro valor!">
+        </p>
+
+        <p>
+            Maquininha 2:
+            <input type="text" id="maq2" placeholder="Insira o segundo valor!">
+        </p>
+
+        <p>
+            Maquininha 3:
+            <input type="text" id="maq3" placeholder="Insira o terceiro valor!">
+        </p>
+
+        <p>
+            <div class="dindin">
+                Dinheiro:
+            </div>
+
+            <label>Notas de 2:</label>
+            <input type="text" id="doisReais">
+
+            <label>Notas de 5:</label>
+            <input type="text" id="cincoReais">
+
+            <label>Notas de 10:</label>
+            <input type="text" id="dezReais">
+
+            <label>Notas de 20:</label>
+            <input type="text" id="vinteReais">
+
+            <label>Notas de 50:</label>
+            <input type="text" id="cinquentaReais">
+
+            <label>Dinheiro ao Total:</label>
+            <input type="text" id="dinheiroBolo">
+        </p>
+
+        <p>
+            <label>Pagamentos:</label>
+            <input type="text" id="pagamentos">
+        </p>
+
+        <p>
+            <input type="submit" value="Fechar o Caixa">
+        </p>
+
+        <h3 id="resultadoFechamento"></h3>
+        <h3 id="resultadoMeta"></h3>
+    </form>
+    <script src="js/manha.js"></script>
+</body>
+</html>
